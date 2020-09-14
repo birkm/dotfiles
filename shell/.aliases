@@ -17,7 +17,6 @@ alias pf="phpunit --filter "
 alias d="php artisan dusk"
 alias df="php artisan dusk --filter"
 alias sshconfig="vi ~/.ssh/config"
-alias copykey='command cat ~/.ssh/id_rsa.public | pbcopy'
 
 # JavaScript
 alias jest="./node_modules/.bin/jest"
@@ -36,9 +35,6 @@ alias l="ls -laF"
 
 # PhpStorm
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
-
-# Redis
-alias flush-redis="redis-cli FLUSHALL"
 
 # VSCode
 alias code='open -a "/Applications/Visual Studio Code.app" "`pwd`"'
@@ -69,7 +65,7 @@ alias scrape="scrapeUrl"
 
 # Switch NPM
 alias npmnpm="npm config set registry https://registry.npmjs.org"
-alias npmspatie="npm config set registry https://npm.spatie.be"
+#alias npmspatie="npm config set registry https://npm.spatie.be"
 
 # Restart touch bar
 alias touchbar="killall ControlStrip"
