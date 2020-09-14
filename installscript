@@ -108,11 +108,11 @@ echo '---------------------'
 
 echo 'Install phpunit-watcher'
 echo '-----------------------'
-composer global require spatie/phpunit-watcher
+#composer global require spatie/phpunit-watcher
 
 echo 'Install mixed-content-scanner-cli'
 echo '---------------------------------'
-composer global require spatie/mixed-content-scanner-cli
+#composer global require spatie/mixed-content-scanner-cli
 
 echo 'Install laravel valet'
 echo '---------------------'
